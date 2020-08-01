@@ -1,7 +1,7 @@
 class PagesController < ApplicationController
 
     def index
-        @message = Message.all
+        @messages = Message.all
     end
 
 end
